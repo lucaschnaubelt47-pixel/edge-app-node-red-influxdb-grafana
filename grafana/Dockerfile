@@ -1,5 +1,5 @@
 # Use the specified Grafana image
-FROM grafana/grafana:10.4.1-ubuntu
+FROM grafana/grafana:13.3.0-slim
 
 # Set Grafana admin user and password
 ENV GF_SECURITY_ADMIN_USER=admin \
